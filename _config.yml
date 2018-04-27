@@ -6,8 +6,8 @@ description: >
 
 baseurl: "/rtems_gsoc18" # the subpath of your site, e.g. /blog/
 url: https://thelunatic.github.io/rtems_gsoc18 # the base hostname & protocol for your site
-git_address: https://github.com/thelunatic/rtems_gsoc18
-git_edit_address: https://github.com/thelunatic/rtems_gsoc18/master
+git_address: https://github.com/thelunatic/rtems-tools
+git_edit_address: https://github.com/thelunatic/rtems-tools
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
@@ -28,7 +28,7 @@ exclude:
   - .idea/
   - .gitignore
   - README.md
-timezone: Europe/Berlin
+timezone: India
 defaults:
 - scope:
     path: _posts
@@ -46,10 +46,23 @@ defaults:
     seo:
       type: "WebPage"
 
+- scope:
+    path: _codes
+    type: codes
+  values:
+    layout: docs
+    sectionid: codes
+    seo:
+      type: "WebPage"
+
 collections:
   docs:
     permalink: /:collection/:path/
     output: true
   posts:
-    permalink: /blog/:year/:month/:day/:title/
+    permalink: /blog/:title/
     output: true
+  codes:
+    permalink: /:collection/:path/
+    output: true
+ 
