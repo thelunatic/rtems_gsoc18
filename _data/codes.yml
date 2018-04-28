@@ -1,5 +1,4 @@
 - title: Setting up RTEMS 
   codes:
   - building_rtems
-  - hello_world
-
+  - building_rtemstools
