@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The right Path : Getting path to build-directory"
+comments: true
 author: thelunatic
 ---
 
