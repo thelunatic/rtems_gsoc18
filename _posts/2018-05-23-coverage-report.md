@@ -19,19 +19,19 @@ later ( towards the end of the summer or maybe after the Completion of GSoC.
 
 ##### Running coverage on samples/ for score 
 
-The main report.html with the analysis report:
+##### The main report.html with the analysis report:
 
 ![report.html](http://thelunatic.github.io/rtems_gsoc18/img/analysis.png)
 
-The index of the reports:
+##### The index of the reports:
 
 ![index.html](http://thelunatic.github.io/rtems_gsoc18/img/index.png)
 
-The detailed coverage report :
+##### The detailed coverage report :
 
 ![coverage-report.html](http://thelunatic.github.io/rtems_gsoc18/img/cov-report.png)
 
-The branch Coverage report:
+##### The branch Coverage report:
 
 ![branch-coverage](http://thelunatic.github.io/rtems_gsoc18/img/branch-report.png)
 
