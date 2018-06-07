@@ -2,7 +2,7 @@
 layout: post
 title : "Report Card : The Coverage analysis report"
 comments: true
-author: thelunatic
+author: Vijay K. Banerjee (thelunatic)
 ---
 
 Hello Everyone !

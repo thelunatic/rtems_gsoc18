@@ -2,7 +2,7 @@
 layout: post
 title: "GSoC 2018 project Introduction : Improve Coverage Analysis Toolset"
 comments: true
-author: thelunatic
+author: Vijay K. Banerjee (thelunatic)
 ---
 
 Hello Everyone !
