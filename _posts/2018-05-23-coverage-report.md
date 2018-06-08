@@ -35,3 +35,6 @@ later ( towards the end of the summer or maybe after the Completion of GSoC.
 
 ![branch-coverage](http://thelunatic.github.io/rtems_gsoc18/img/branch-report.png)
 
+##### The Size Report:
+
+![size-report](http://thelunatic.github.io/rtems_gsoc18/img/sizes.png)
