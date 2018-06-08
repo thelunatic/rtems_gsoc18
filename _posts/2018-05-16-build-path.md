@@ -7,11 +7,11 @@ author: Vijay K. Banerjee (thelunatic)
 
 Hello everyone !
 
-This is still the first week going and a lot of interesting stuffs are going in the project ! 
+This is still the first week, and a lot of interesting stuffs are going in the project ! 
 While working with the previous GSoC project along with my mentors to fix the issues, 
 we came up with a very interesting problem. Basically I got it running again by parsing the 
-bsp ini file from the script. After giving a good amount of time in understand the codebase 
-and making addition to it for the parsing, it was really a great feeling to see it runnin and 
+bsp ini file from the script. After giving a good amount of time in understanding the codebase 
+and making addition to it for the parsing, it was really a great feeling to see it running and 
 it felt like we can get it merged with the tester much before the phase 1 deadline and we can 
 give more time to the gcov generation which cetainly demands a good amount of time and focus.
 
@@ -48,16 +48,13 @@ Did you spot the difference there?
 Apart from and addition of the `--coverage` option, we made another difference in the command 
 addition of `--rtems-builddir` option. It surely made the job simple for us as we could 
 take the path to the build directory from the user but it changed the way how the tester works!
-This would create so much confusion in whole userbase, it would need updating all the
-documentations and manuals and still there would be so much confusions for the users
-who would see a sudden change in the command line arguments of the tool they had been
-using for long.
+This would create so much confusion in the whole user base, it would need updating all the documentations and manuals and users would still be puzzled to see a sudden change in the command line arguments of the tool they had been using for long.
 
-A very good lesson was learnt from this is that the user interface should not be compromised
-for the ease of fixing an issue.
+This taught me a very good lesson, the solutions that we're generating, shouldn't compromise
+with the familiar user interface just for the simplicity of development.
 
 We got back to work, which followed a series of updates to covoar and the coverage script.
-And then we arrived at a solution where only the addition of `--coverage` options makes
+And then we arrived at a solution where only the addition of `--coverage` option makes
 it work.
 
 I'll be posting on the working of the coverage soon.
