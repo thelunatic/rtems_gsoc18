@@ -18,7 +18,7 @@ is still a mystery to us and without solving that mystery, it is not possible
 to go ahead with the gcov support without understanding the format of the file 
 we are working with.
 
-To deal with this we have planned to created a `GCNO_DUMPER` program to dump
+To deal with this we have planned to create a `GCNO_DUMPER` program to dump
 the contents of the gcno files into a human readeable txt format. I have 
 already started the dumper project and it can be followed in the following
 repository.
@@ -31,6 +31,6 @@ in progress and will soon (hopefully) be ready to dump the contents of any gcno
 file.
 
 In the next post I will describe each fields in the txt file that is generated so
-far that will demytify the gcno mystery to some extent. 
+far that will demystify the gcno mystery to some extent. 
 
 Thank you for giving it a read! :) 
