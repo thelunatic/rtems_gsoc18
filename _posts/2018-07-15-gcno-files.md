@@ -11,7 +11,7 @@ planned to follow for generating the gcov coverage reports from covoar. The
 plan is interesting but certainly not that simple, there are few challenges 
 in this project which are a bit difficult to tackle down. 
 
-The very fist of the callenges is the mystery of the GCNO and the GCDA files.
+The very first of the challenges is the mystery of the GCNO and the GCDA files.
 According to plan, the `covoar` tool will read the gcno files along with the
 qemu trace to generate the gcno files. But... The structure of the gcno file 
 is still a mystery to us and without solving that mystery, it is not possible 
