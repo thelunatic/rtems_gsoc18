@@ -115,11 +115,12 @@ To solve this I started a making a gcno dumper tool,foloowing my mentor,
 Dr. Sherrill's advice. I have added the code of the `gcno_dumper` project 
 in a separate public repository.
 [ This is the link to the repo...](https://github.com/thelunatic/gcno_dumper)
-Once this is complete and reviewed, it will go into the `covoar/` and will
-help debug the gcov reports.
+This is currently working and it dumps all the data from gcno files into a
+txt file in human readable format, it needs to be reviewed and after the review
+and needed modifications it will go into the `covoar/`, this will help debug the gcov reports.
 
 Description of the working of the gcno_dumper tool and the discussion on 
-the generated txt file can be found in [THIS](https://thelunatic.github.io/rtems_gsoc18/blog/gcno-files/) and [THIS](https://thelunatic.github.io/rtems_gsoc18/blog/gcno-dump1/) link.
+the generated txt file can be found in [THIS](https://thelunatic.github.io/rtems_gsoc18/blog/gcno-files/) and [THIS](https://thelunatic.github.io/rtems_gsoc18/blog/gcno-dump1/) link. The full dump txt file can be found in [THIS LINK ](https://github.com/thelunatic/gcno_dumper/blob/master/gcno_dump.txt)
 
 ##### Future work 
 * Complete the gcno_dumper tool.
