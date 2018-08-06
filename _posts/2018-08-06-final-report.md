@@ -8,7 +8,7 @@ author: Vijay Kumar Banerjee(thelunatic)
 ### Project Overview
 
 RTEMS-TOOLS Uses the test framework `rtems-test`, which is a command line 
-interface to run tests on supported targets.The Board Support package (BSP) 
+interface to run tests on supported targets.The Board Support Package (BSP) 
 configuration for RTEMS are provided and can be used to run all the tests 
 provided in the RTEMS testsuites. The framework is not specific to RTEMS and 
 can be configured to run any suitable application. 
@@ -62,7 +62,7 @@ one, and then...
 
 [It got merged !!!](https://github.com/RTEMS/rtems-tools/commit/b762312fae672e1ae8b47e4581f445020d47245f)
 
-I have two patches pending review, These add the support in coverage, to iterate
+I have two patches pending review, these add the support in coverage, to iterate
 over the symbol-sets in the symbol-sets.ini file, and produce separate reports
 for each of the symbol-set.
 * [Patch to add support to generate separate reports](https://lists.rtems.org/pipermail/devel/2018-July/022619.html)
@@ -111,7 +111,7 @@ reports and the main hurdle on the way was the mystery of the gcno files.
 We didn't have much knowledge about the gcno files which was very necessary 
 in order to parse it properly and then generate the gcda files with it.
 
-To solve this I started a making a gcno dumper tool,foloowing my mentor, 
+To solve this I started a making a gcno dumper tool,following my mentor, 
 Dr. Sherrill's advice. I have added the code of the `gcno_dumper` project 
 in a separate public repository.
 [ This is the link to the repo...](https://github.com/thelunatic/gcno_dumper)
