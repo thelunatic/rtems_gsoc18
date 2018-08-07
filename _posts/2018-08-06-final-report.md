@@ -36,7 +36,7 @@ processed by the GCC GCOV to generate gcov reports which opens door to reports
 with more data-centric format like `xml` which can be processed by other tools.
 
 ---
-### Summary of The work 
+### Summary of The Work 
 
 This section contains a detailed summary of the work done towards each of the
 two objectives mentioned above. This includes the Challenges faced specific
